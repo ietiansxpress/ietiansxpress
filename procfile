@@ -1,2 +1,2 @@
-web: gunicorn app:store
+web: gunicorn wsgi:store
 web: python manage.py runserver 0.0.0.0:$PORT --noreload
