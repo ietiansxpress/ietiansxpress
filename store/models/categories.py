@@ -9,5 +9,4 @@ class Category(models.Model):
     
     def get_all_category():
         return Category.objects.all()
-    
-    
+        
